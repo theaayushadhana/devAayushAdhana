@@ -17,13 +17,12 @@
 // })
 
 import { defineConfig } from 'vite';
-
 export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
       input: {
-        main: './src/app.js'  // Replace with the actual path to your main JavaScript file
+        main: './src/App.jsx'  // Replace with the actual path to your main JavaScript file
       }
     }
   }
