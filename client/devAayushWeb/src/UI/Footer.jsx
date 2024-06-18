@@ -1,18 +1,4 @@
-// import React from "react"
 
-// const Footer = () =>{ 
-//   return(<>
-//   <footer style={{backgroundColor: 'black', height: '200px'}}>
-
-//     <p style={{color: 'white', textAlign: 'center'}}>&copy; 2024, All Rights Reserved</p>
-    
-//   </footer>
-//   </>)
-// }
-// export default Footer;
-
-
-// Footer.jsx
 import React from 'react';
 import { Typography, Link, Grid } from '@mui/material';
 import { GitHub, Twitter, Facebook, LinkedIn, Instagram } from '@mui/icons-material'; // Import icons from Material-UI
