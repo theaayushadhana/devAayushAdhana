@@ -2,13 +2,15 @@
   "name": "developeraayush",
   "version": "1.0.0",
   "description": "",
-  "main": "  index.js",
+  "main": "index.js",
   "type": "module",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "start": " node index.js",
+    "build": "vite build"
+    
+   
   },
   "keywords": [],
   "author": "",
