@@ -1,10 +1,12 @@
+
 [build]
   base = "client"
-  publish = "client/dist"
   command = "npm run build"
+  publish = "client/dist"
 
 [build.environment]
   NODE_VERSION = "14"
+  MONGO_URL = "mongodb+srv://developeraayush145:1DYbUXL8b1zAvehb@your-cluster.mongodb.net/DeveloperAayushWeb"
 
 [[redirects]]
   from = "/*"
