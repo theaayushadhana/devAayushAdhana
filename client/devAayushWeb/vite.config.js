@@ -23,9 +23,10 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        main: '.././../client/index.js'  // Replace with your actual entry point
+        main: './src/app.js'  // Replace with the actual path to your main JavaScript file
       }
     }
   }
 });
+
 
