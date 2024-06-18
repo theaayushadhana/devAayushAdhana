@@ -50,7 +50,7 @@ export default defineConfig({
   
   build: {
     outDir: 'dist', // Specify the output directory
-    assetsDir: '.', // Serve HTML file directly from the root directory
+   
   },
 });
 
