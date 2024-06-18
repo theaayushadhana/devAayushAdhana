@@ -27,7 +27,7 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/homePage" element={<HomePage />} />
           <Route path='/home' element={<PostList/>} />
-          <Route path='/' element={<PostList/>} />
+          {/* <Route path='/' element={<PostList/>} /> */}
           <Route path='/post/:id' element={<PostDetails/>} />
       </Routes>
       </Router>
