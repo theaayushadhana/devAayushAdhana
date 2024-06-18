@@ -22,13 +22,8 @@ function App() {
     <div>
      <Router>
      <Navbar/>
-     {/* <div className='containerh'>
-         <h1 className='h1'>Explore Free courses</h1>
-     </div>
-     <div className='container2'>
-     <h2 className='h2'> For any article or improvement related queries email us at: developeraayush145@gmail.com</h2>
+    
      
-     </div> */}
      <AnimatedText/>
       <Routes>
       {/* <Route path="/publish" element={<PostForm />} /> */}
@@ -42,7 +37,7 @@ function App() {
      
      
       
-     {/* <CardComponent/> */}
+    
      <Footer/>
      
     </div>
